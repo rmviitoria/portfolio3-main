@@ -156,7 +156,7 @@ function criarTagLI(item) {
     btnExcluir.setAttribute('onclick', 'excluir('+item.id+')');
 
 
-    div.appendChild(btnEditar);
+    /*div.appendChild(btnEditar);*/
     div.appendChild(btnExcluir);
 
 
@@ -166,7 +166,7 @@ function criarTagLI(item) {
 }
 
 
-function editar(idItem) {
+/*function editar(idItem) {
     let li = document.getElementById(''+ idItem + '');
     if(li) {
         idItemEdicao.innerHTML = '#' + idItem;
@@ -175,7 +175,7 @@ function editar(idItem) {
     } else {
         alert('Elemento HTML não encontrado!');
     }
-}
+}*/
 
 
 function excluir(idItem) {
