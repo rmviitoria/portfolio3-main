@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #653463;
+    font-family: 'Open Sans', ;
+    color: #000000;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+}
+
+.cabecalho h1 {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.conteudo {
+    border-top: 0.4px solid #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    text-align: center;
+}
+
+.objetivo {
+    border-top: 0.4px solid #dbdbdb;
+}
+
+h2 {
+    color: #dbdbdb;
+}
+
+h3 {
+    color: #dbdbdb;
+}
+
+fieldset{
+    color: #dbdbdb;
+    border: #4c274a 1px solid;
+    margin-bottom: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 30px;
+    background-color: #4c274a;
+    border-radius: 15px;
+}
+
+
+.botao {
+    background-color: #331a32;
+    margin-top: 20PX;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 150px;
+    height: 35px;
+    color: rgb(231, 231, 231);
+
+    border: none;
+    text-align: center;
+    box-shadow: 4px 5px 4px rgna(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow,transform;
+}
+
+.botao:hover,.botao:focus,.botao:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.botao a{
+    color: white;
+}
+.botao a:hover{
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    width: 100vw;
+    height: 100px;
+    border-top: 0.4px solid #000000;
+    align-content: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+

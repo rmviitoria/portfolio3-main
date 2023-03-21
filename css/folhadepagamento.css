@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+    background-color: #653463;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/*header{
+    background-color: transparent;
+    background: linear-gradient(0deg, rgba(255,255,255,0), rgb(25, 23, 23) 90%);
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}*/
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+    height: 80vh;
+    color: #ffffff; 
+}
+
+.tudo{
+    display: flex;
+    gap: 20px;
+}
+
+#box{
+    background-color: #331a32;
+    padding: 50px;
+    border-radius: 30px;
+    font-size: 22px;
+    line-height: 170%;  
+    transition: 1s;
+}
+
+input{
+    padding: 8px;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Righteous', cursive;
+}
+
+#salarioBruto{
+    padding: 8px;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Righteous', cursive;
+}
+#dependentes{
+    padding: 8px;
+    border-radius:10px;
+    border-style: none;
+    font-family: 'Righteous', cursive;
+}
+
+
+#check{
+    font-size: 15px;
+}
+
+#calc{
+    border-style: none;
+    border-radius: 10px;
+    width: 100%;
+    color: #1a1a1a;
+    background-color: #ffffff63;
+    font-family: 'Righteous', cursive;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#calc:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    font-size: 70%;
+}
+
+
+#box1{
+    display: none;
+    color: white;
+    background-color: #331a32;
+}
+
+#box1 h2{
+    padding-top: 10px;
+    display: none;
+    flex-direction: column; 
+    background-color: #331a32;
+}
+
+box1{
+    background-color: #331a32;
+}
+
+table{
+    background-color: #331a32;
+}
+
+#reset{
+    border-style: none;
+    border-radius: 10px;
+    width: 100%;
+    color: #1a1a1a;
+    background-color: #ffffff63;
+    font-family: 'Righteous', cursive;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#reset:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    font-size: 70%;
+}   
+
+.botao{
+    border-style: none;
+    border-radius: 10px;
+    width: 100%;
+    color: #1a1a1a;
+    background-color: #ffffff63;
+    font-family: 'Righteous', cursive;
+    height: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.botao:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    font-size: 70%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 100vw;
+    margin-bottom: 1200px;
+
+    height: 190px;
+    align-content: flex-end;
+    display: flex;
+    align-items: center;
+
+}
+
+footer h2{
+    color: white;
+    border: black;
+}

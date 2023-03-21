@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+
+}
+
+body {
+    font-size: 100%;
+    background: #331a32;
+    font-family: 'Righteous', cursive;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.conteudo {
+    height: 120vh;
+    margin: 18px ;
+    border-top: 0.4px solid #ffffff;
+    display:flex;
+    /*flex-direction: flex;*/
+    align-items: stretch;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.primeiro {
+    padding: 50px;
+    width: 500px;
+    height: 200px;
+    border: transparent;
+}
+
+.botao {
+    text-decoration: none;
+    background-color: #653463;
+    margin-top: 20PX;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 150px;
+    height: 60px;
+    border: none;
+    text-align: center;
+    box-shadow: 4px 5px 4px rgna(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow,transform;
+}
+
+.botao a{
+    color: white;
+}
+.botao a:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+.botao:hover,.botao:focus,.botao:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+}
+
+.nome {
+    margin: 0px auto;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 34px;
+    color: #ffffff;
+    text-align: center;
+    width: 300px;
+}
+
+footer {
+    width: 100vw;
+    height: 100px;
+    border-top: 0.4px solid #ffffff;
+    align-content: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+

@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+body {
+    background: #653463;
+    color: #FFF;
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    font-size: 1rem;
+}
+
+
+.conteudo {
+    margin: 0 auto;
+    width: 100%;;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #331a32;
+    padding: 55px;
+    border-radius: 12px;
+}
+
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+
+.topo input {
+    width: 350px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #180c17;
+    outline: none;
+    font-size: 1.2rem;
+    background: #180c17;
+    color: #FFF;
+}
+
+
+.topo button {
+    width: 45px;
+    border-radius: 12px;
+    border: 1px solid #180c17;
+    background: #180c17;
+    color: #FFF;
+    outline: none;
+}
+
+
+.topo button:hover {
+    background: #180c17;
+    cursor: pointer;
+}
+
+
+#listaItens {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.botao {
+    background-color: #331a32;
+    margin-top: 20PX;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 400px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+
+    border: none;
+    text-align: center;
+    box-shadow: 4px 5px 4px rgna(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.botao:hover,
+.botao:focus,
+.botao:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.botao a {
+    color: white;
+}
+
+.botao a:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+#listaItens li {
+    padding: 20px;
+    background: #180c17;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.btnAcao {
+    border-radius: 20px;
+    border: 1px solid #180c17;
+    width: 38px;
+    height: 38px;
+    margin-right: 8px;
+    cursor: pointer;
+    background: #231924;
+    color: #FFF;
+    outline: none;
+}
+
+
+.btnAcao:hover {
+    background: #3c3a3a;
+}
+
+
+.textoItem {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 290px;
+    white-space: nowrap;
+}
+
+
+#janelaEdicao {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: #180c17;
+    border: 1px solid #180c17;
+    width: 415px;
+    border-radius: 12px;
+    z-index: 200;
+    display: none;
+}
+
+
+#janelaEdicao.abrir {
+    display: block !important;
+}
+
+
+#janelaEdicaoFundo {
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    opacity: 0.9;
+    z-index: 100;
+    right: 0;
+    display: none;
+}
+
+
+#janelaEdicaoFundo.abrir {
+    display: block !important;
+}
+
+
+#janelaEdicaoBtnFechar {
+    position: absolute;
+    top: -25px;
+    right: -18px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #653463;
+    background: #653463;
+    color: #FFF;
+    outline: none;
+}
+
+
+form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.frm-linha {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.frm-linha label {
+    margin-bottom: 7px;
+}
+
+
+.frm-linha input {
+    padding: 15px;
+    border-radius: 12px;
+    outline: none;
+    border: 1px solid #331a32;
+    font-size: 1.2rem;
+    background: #331a32;
+    color: #FFF;
+}
+
+
+.frm-linha button {
+    background: #331a32;
+    border: 1px solid #331a32;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    color: #CCC;
+    cursor: pointer;
+    height: 50px;
+    font-size: 1.3rem;
+    outline: none;
+}
+
+
+.frm-linha button:hover {
+    background: #653463;
+}

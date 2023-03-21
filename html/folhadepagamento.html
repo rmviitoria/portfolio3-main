@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/folhadepagamento.css">
+
+		<title>FOLHA DE PAGAMENTO</title>
+	</head>
+	<body>
+		<header class="cabecalho">
+			<nav>
+				<h1>FOLHA DE PAGAMENTO</h1>
+			</nav>
+		</header>
+		<main>
+			<div class="tudo">
+				<span id="box">
+					<label for="nome">Nome:</label>
+                <br>
+                <input type="name" name="nome" id="nome" placeholder="Digite seu nome">
+                <br>
+                <label for="horasTrabalho">Número de horas de trabalho</label>
+                <br>
+                <input type="number" name="horasTrabalho" id="horasTrabalho" placeholder="Horas de trabalho">
+                <br>
+                <label for="valorHora">Valor por hora</label>
+                <br>
+                <input type="number" name="valorHora" id="valorHora" placeholder="Valor por hora">
+                <br>
+                <label for="numeroFilhos">Número de filhos</label>
+                <br>
+                <input type="number" name="numeroFilhos" id="numeroFilhos" placeholder="Número de filhos">
+                <br>
+                <label for="salarioBruto">Salário bruto</label>
+                <br><input type="number" name="salarioBruto" id="salarioBruto" placeholder="Digite seu salário">
+                <br>
+                <br>
+					<button id="calc">
+						<h3>Calcular</h3>
+					</button>
+					<br> 
+					<br>
+					<button class="botao"> <a href="/html/portfolio.html">Voltar</a></button>
+				</span>
+				<div id="box1">
+					<h2>RESULTADO:</h2>
+					<table id="table" border="1" cellspacing="0">
+						<tr>
+							<td>Salário bruto: </td>
+							<td id="sB"></td>
+							</tr>
+						<tr>
+							<td> INSS: </td>
+							<td id="INSS"></td>
+							</tr>
+						<tr>
+							<td>IR:</td>
+							<td id="IRFF"> <td>
+						</tr>
+						<tr>
+							<td>Familia:</td>
+							<td id="Vt"> </td>
+						</tr>
+						<tr>
+							<td>Salário líquido:</td>
+							<td id="sL"> </td>
+						</tr>		
+					</table>
+					<br>
+                    <button type="reset" id="reset">
+                        <h3>Resetar</h3>
+					<div class="resultado">
+                    </div>
+				</div>
+			</div>
+		</main>
+		<footer>
+            <h2>Sistema FIT- 2023 | Todo o direito reervdos ® | by Vitória</h2>
+        </footer>
+	</body>
+	<script src="/js/folhadepagamento.js"></script>
+</html>

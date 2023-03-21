@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #653463;
+    font-family: 'Righteous', cursive;
+    color: #ffffff;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+fieldset{
+    color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) 1px solid;
+    margin-bottom: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 30px;
+    background-color: #331a32;
+    border-radius: 15px;
+}
+
+.botao {
+    background-color: #653463;
+    margin-top: 20PX;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 120px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+
+    border: none;
+    text-align: center;
+    box-shadow: 4px 5px 4px rgna(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow,transform;
+}
+
+.botao:hover,.botao:focus,.botao:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.botao a{
+    color: white;
+}
+.botao a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit{
+    background-image:linear-gradient(to right, #653463, black) ;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#submit:hover{
+    background-image: linear-gradient(to right, #653463, black);
+}
+
+footer {
+    width: 100vw;
+    height: 100px;
+    align-content: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #331a32;
+}
+
